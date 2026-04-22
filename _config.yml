@@ -23,8 +23,8 @@ email: holger.lenz@lyrasis.org
 description: >- # this means to ignore newlines until "baseurl:"
   Testing
   Testing, testing
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/dspace-testathon" # the subpath of your site, e.g. /blog
+url: "https://hostle83.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

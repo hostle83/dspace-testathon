@@ -1,0 +1,42 @@
+name: Test Report
+description: Report the results of a Testathon test
+title: "[TEST] "
+labels: ["testathon"]
+
+body:
+  - type: input
+    id: user_story
+    attributes:
+      label: User Story
+      description: Which test story did you test?
+      placeholder: US-01 Submit an Item
+
+  - type: input
+    id: environment
+    attributes:
+      label: Test Environment
+      placeholder: Browser, OS, DSpace version
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps Performed
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: Test Result
+      options:
+        - Passed
+        - Failed
+        - Needs clarification
